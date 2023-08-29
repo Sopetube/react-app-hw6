@@ -25,6 +25,7 @@ body{
   border-radius: 10px;
 
 }
+
 .tweet_head{
   display: flex;
   align-items: center;
@@ -38,7 +39,10 @@ body{
 .tweet img{
   width: 80%;
   border-radius: 10px;
-
+}
+.tweet_head img{
+  width: 40px;
+  border-radius: 50%;
 }
 .publications{
   border-radius: 10px;
@@ -55,4 +59,22 @@ body{
   margin-top: 10px;
   font-style: italic;
   display: block;
+}
+.icons{
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  font-size: 15px;
+}
+.icons span{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.icons span:hover{
+  color: rgb(141, 124, 182);
+
 }
