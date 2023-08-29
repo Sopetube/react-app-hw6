@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(10, 0, 68, 0.737);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  color: aliceblue;
+}
+.tweet{
+  margin: 0 auto;
+  background-color: rgba(32, 31, 36, 0.436);
+  color: aliceblue;
+  text-align: left;
+  padding: 10px;  
+  border-radius: 10px;
+
+}
+.tweet_head{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+.tweet_head span{
+  color: gray;
+  font-size: 14px;
+}
+.tweet img{
+  width: 80%;
+  border-radius: 10px;
+
+}
+.publications{
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.123);
+  color: aliceblue;
+  margin-top: 50px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+.tweet_content{
+  margin-top: 10px;
+  font-style: italic;
+  display: block;
+}
